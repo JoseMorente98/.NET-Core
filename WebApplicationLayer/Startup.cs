@@ -42,7 +42,7 @@ namespace WebApplicationLayer
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=ProductType}/{action=Index}/{id?}");
             });
         }
     }

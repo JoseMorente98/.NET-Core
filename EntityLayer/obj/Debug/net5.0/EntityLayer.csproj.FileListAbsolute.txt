@@ -1,0 +1,12 @@
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\josem\Documents\GitHub\.NET-Core\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb

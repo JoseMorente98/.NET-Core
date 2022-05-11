@@ -4,14 +4,133 @@
     "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\WebApplicationLayer\\WebApplicationLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\WebApplicationLayer\\WebApplicationLayer.csproj": {
+    "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\WebApplicationLayer\\WebApplicationLayer.csproj",
-        "projectName": "WebApplicationLayer",
-        "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\WebApplicationLayer\\WebApplicationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\WebApplicationLayer\\obj\\",
+        "outputPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\DataLayer\\DataLayer.csproj"
+              },
+              "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\DataLayer\\DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\DataLayer\\DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\EntityLayer\\EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\EntityLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +158,76 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\WebApplicationLayer\\WebApplicationLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\WebApplicationLayer\\WebApplicationLayer.csproj",
+        "projectName": "WebApplicationLayer",
+        "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\WebApplicationLayer\\WebApplicationLayer.csproj",
+        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\WebApplicationLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\DataLayer\\DataLayer.csproj"
+              },
+              "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\josem\\Documents\\GitHub\\.NET-Core\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
